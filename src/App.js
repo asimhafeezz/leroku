@@ -1,12 +1,12 @@
-import Layout from './components/Layout'
-import Showcase from './components/Showcase.js'
+import { Layout, Showcase, Stats } from './components'
 
 const App = () => {
-  return (
-    <Layout>
-      <Showcase />
-    </Layout>
-  )
+	return (
+		<Layout>
+			<Showcase />
+			<Stats />
+		</Layout>
+	)
 }
 
 export default App
