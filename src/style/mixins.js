@@ -34,7 +34,7 @@ const mixins = {
 		background-color: ${colors.white};
 		border-radius: 10px;
 		box-shadow: 0 3px 30px rgba(0, 0, 0, 0.2);
-		padding: 40px;
+		padding: 20px;
 		margin: 10px;
 	`,
 	button: css`

@@ -49,6 +49,7 @@ const Paragraph = styled.p`
 //formcard
 const FormCard = styled.div`
 	${mixins.card};
+    padding: 40px;
 
 	position: relative;
 	top: 60px;
