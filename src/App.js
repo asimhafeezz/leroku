@@ -1,4 +1,4 @@
-import { Cli, Cloud, Layout, Showcase, Stats } from './components'
+import { Cli, Cloud, Languages, Layout, Showcase, Stats } from './components'
 
 const App = () => {
 	return (
@@ -7,6 +7,7 @@ const App = () => {
 			<Stats />
       <Cli />
       <Cloud />
+      <Languages />
 		</Layout>
 	)
 }

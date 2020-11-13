@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import { mixins, theme } from '../style'
 import { LinkButton } from './util/Buttons'
-const { colors } = theme
+const { colors , fontSizes} = theme
 
 const Root = styled.div`
 	background-color: ${colors.blueBg};
@@ -18,10 +18,13 @@ const Container = styled.div`
 const Texts = styled.div`
 	${mixins.textCenter}
 `
-const Heading = styled.h2``
+const Heading = styled.h2`
+font-size: ${fontSizes.md}
+`
 
 const Paragraph = styled.p`
 	${mixins.my_1}
+    font-size: ${fontSizes.sm}
 `
 
 const DarkLinkButton = styled(LinkButton)`
