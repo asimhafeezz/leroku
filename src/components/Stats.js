@@ -7,7 +7,9 @@ import PublishIcon from '@material-ui/icons/Publish';
 import AccountTreeIcon from '@material-ui/icons/AccountTree';
 
 //root
-const Root = styled.div``
+const Root = styled.div`
+${mixins.my_3}
+`
 
 const Container = styled.div`
 	${mixins.container};

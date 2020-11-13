@@ -54,6 +54,8 @@ const mixins = {
 		text-align: center;
 	`,
 	transition: `all 0.25s ease`,
+
+	//margins
 	my_1: css`
 		margin: 1rem 0;
 	`,
@@ -99,6 +101,8 @@ const mixins = {
 	m_5: css`
 		margin: 4rem;
 	`,
+
+	//paddings
 	p_1: css`
 		padding: 1rem;
 	`,
@@ -113,6 +117,36 @@ const mixins = {
 	`,
 	p_5: css`
 		padding: 4rem;
+	`,
+	py_1: css`
+		padding: 1rem 0;
+	`,
+	py_2: css`
+		padding: 1.5rem 0;
+	`,
+	py_3: css`
+		padding: 2rem 0;
+	`,
+	py_4: css`
+		padding: 3rem 0;
+	`,
+	py_5: css`
+		padding: 4rem 0;
+	`,
+	px_1: css`
+		padding: 0 1rem;
+	`,
+	px_2: css`
+		padding: 0 1.5rem;
+	`,
+	px_3: css`
+		padding: 0 2rem;
+	`,
+	px_4: css`
+		padding: 0 3rem;
+	`,
+	px_5: css`
+		padding: 0 4rem;
 	`,
 }
 

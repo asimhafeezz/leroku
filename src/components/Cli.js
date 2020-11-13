@@ -1,7 +1,9 @@
 import styled from 'styled-components'
 import { mixins } from '../style'
 
-const Root = styled.div``
+const Root = styled.div`
+${mixins.my_4}
+`
 
 const Container = styled.div`
 	${mixins.container};

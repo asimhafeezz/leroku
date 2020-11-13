@@ -1,4 +1,4 @@
-import { Cli, Layout, Showcase, Stats } from './components'
+import { Cli, Cloud, Layout, Showcase, Stats } from './components'
 
 const App = () => {
 	return (
@@ -6,6 +6,7 @@ const App = () => {
 			<Showcase />
 			<Stats />
       <Cli />
+      <Cloud />
 		</Layout>
 	)
 }
