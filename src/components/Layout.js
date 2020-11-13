@@ -5,8 +5,8 @@ const Layout = ({ children }) => {
 	return (
 		<div>
 			<GlobalStyle />
+			<NavbarHeader />
 			<main>{children}</main>
-            <NavbarHeader />
 		</div>
 	)
 }

@@ -1,11 +1,10 @@
-import React from 'react'
-import NavbarHeader from './components/Navbar.jsx'
 import Layout from './components/Layout'
+import Showcase from './components/Showcase.js'
 
 const App = () => {
   return (
     <Layout>
-      
+      <Showcase />
     </Layout>
   )
 }

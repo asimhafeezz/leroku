@@ -14,6 +14,7 @@ html{
     box-sizing: inherit;
     padding: 0;
     margin: 0;
+    outline: none;
 }
 
 body{
@@ -27,6 +28,7 @@ ul{
 
 a{
     text-decoration: none;
+    cursor: pointer;
 }
 
 h1,
