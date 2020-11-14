@@ -1,5 +1,6 @@
-import { GlobalStyle } from '../style/index'
+import { GlobalStyle } from '../../style'
 import NavbarHeader from './Navbar'
+import NavbarFooter from './Footer'
 
 const Layout = ({ children }) => {
 	return (
@@ -7,6 +8,7 @@ const Layout = ({ children }) => {
 			<GlobalStyle />
 			<NavbarHeader />
 			<main>{children}</main>
+			<NavbarFooter />
 		</div>
 	)
 }

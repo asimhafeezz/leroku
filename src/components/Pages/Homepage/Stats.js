@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { mixins } from '../style'
+import { mixins } from '../../../style'
 
 //icons
 import StorageIcon from '@material-ui/icons/Storage';
@@ -9,11 +9,15 @@ import AccountTreeIcon from '@material-ui/icons/AccountTree';
 //root
 const Root = styled.div`
 ${mixins.my_3}
+//mobile media query
+@media (max-width: 768px){
+		margin-top: 15rem;
+	}
 `
 
 const Container = styled.div`
 	${mixins.container};
-    padding-top: 90px;
+    padding-top: 100px;
 `
 
 const Heading = styled.h3`
@@ -27,6 +31,13 @@ ${mixins.grid};
 ${mixins.grid_3};
 ${mixins.textCenter};
 height: 250px;
+
+//mobile media query
+@media (max-width: 500px){
+		grid-template-columns: 1fr;
+        height: 470px;
+        margin-top: 1rem;
+	}
 `
 
 const UploadIcon = styled(PublishIcon)`

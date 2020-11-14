@@ -1,10 +1,10 @@
 import styled from 'styled-components'
-import { mixins, theme } from '../style'
+import { mixins, theme } from '../../../style'
 const { fontSizes } = theme
 
 //root
 const Root = styled.div`
-	${mixins.py_4};
+	/* ${mixins.py_4}; */
 `
 
 const Heading = styled.h2`
@@ -13,17 +13,24 @@ const Heading = styled.h2`
 	font-size: ${fontSizes.md};
 `
 const Card = styled.div`
-	${mixins.card}
-	height: 130px;
-	width: 100px;
-	${mixins.textCenter}
+	${mixins.card};
+	height: 170px;
+	width: 130px;
+    transition: ${mixins.transition};
+	${mixins.textCenter};
+    :hover{
+        transform: translateY(-10px) 
+    }
 `
 
 const Container = styled.div`
 	${mixins.container}
+    ${mixins.p_1}
 `
 const Flex = styled.div`
-	${mixins.flexCenter}
+	${mixins.flexCenter};
+    ${mixins.py_1}
+    flex-wrap: wrap;
 `
 
 const Languages = () => {
@@ -32,8 +39,8 @@ const Languages = () => {
 			<Container>
 				<Heading>Supported Languages</Heading>
 				<Flex>
-					{cards.map(({ name, img }) => (
-						<Card>
+					{cards.map(({ name, img } , i) => (
+						<Card key={i}>
 							<h4>{name}</h4>
 							<img src={img} alt='nodeImage' />
 						</Card>

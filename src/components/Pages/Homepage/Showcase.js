@@ -1,6 +1,6 @@
 import styled from 'styled-components'
-import { mixins, theme } from '../style'
-import { LinkButton, PrimaryButton } from './util/Buttons'
+import { mixins, theme } from '../../../style'
+import { LinkButton, PrimaryButton } from '../../util/Buttons'
 const { colors } = theme
 
 //root
@@ -28,9 +28,17 @@ const Root = styled.div`
 const Container = styled.div`
 	${mixins.container}
 	${mixins.grid}
-    grid-template-columns: 55% 45%;
+    grid-template-columns: 1fr 1fr;
 	grid-gap: 30px;
 	overflow: visible;
+
+    //mobile media query
+	@media (max-width: 768px){
+		grid-template-columns: 1fr;
+        grid-gap: 0;
+		${mixins.textCenter}
+		padding-top: 4rem;
+	}
 `
 //texts
 const Texts = styled.div`
@@ -57,6 +65,12 @@ const FormCard = styled.div`
 	width: 400px;
 	z-index: 100;
 	justify-self: flex-end;
+
+	//mobile media query
+	@media (max-width: 768px){
+		justify-self: center;
+
+	}
 `
 const FormHeading = styled.h2`
 	font-size: 27px;
