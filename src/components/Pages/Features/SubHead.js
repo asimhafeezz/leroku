@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import { mixins , theme} from '../../../style'
-const { fontSizes , colors } = theme
+const { fontSizes, mediaQueries } = theme
 //root
 const Root = styled.div`
 `
@@ -12,6 +12,12 @@ ${mixins.container}
 
 const ShowcaseDiv = styled.div`
 ${mixins.grid};
+${mixins.py_2}
+
+@media (max-width: ${mediaQueries.tablet}px){
+    grid-template-columns: 1fr;
+    height: auto;
+}
 `
 
 const Heading = styled.h1`
@@ -26,6 +32,10 @@ font-weight: 200;
 const Image = styled.img`
 width: 300px;
 justify-self: right;
+
+@media (max-width: ${mediaQueries.tablet}px){
+    justify-self: center;
+}
 `
 
 const Showcase = () => {

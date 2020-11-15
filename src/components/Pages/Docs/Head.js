@@ -48,12 +48,12 @@ return(
         <Container>
             <HeadDiv>
                 <div>
-                    <Heading>Features</Heading>
+                    <Heading>Docs</Heading>
                     <Paragraph>
-                        Check out the features of Leroku that separate us from the competition
+                        Learn how to work with Leroku plateform.
                     </Paragraph>
                 </div>
-                <Image src="/server.png" alt="serverImage" />
+                <Image src="/docs.png" alt="docsImage" />
             </HeadDiv>
         </Container>
     </Root>

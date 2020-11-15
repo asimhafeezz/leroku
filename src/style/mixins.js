@@ -33,9 +33,9 @@ const mixins = {
 	card: css`
 		background-color: ${colors.white};
 		border-radius: 10px;
-		box-shadow: 0 3px 15px rgba(0, 0, 0, 0.2);
+		box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
 		padding: 25px;
-		margin: 10px;
+		margin: 7px;
 	`,
 	button: css`
 		display: inline-block;
@@ -54,6 +54,18 @@ const mixins = {
 		text-align: center;
 	`,
 	transition: `all 0.25s ease`,
+
+	//alerts
+	alert: css`
+	padding:10px;
+	border-radius: 5px;
+	color: ${colors.white};
+	font-weight: bold;
+	`,
+
+	alertSuccess: css`
+	background-color: ${colors.success}
+	`,
 
 	//margins
 	my_1: css`

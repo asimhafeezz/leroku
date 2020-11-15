@@ -2,7 +2,7 @@
 import { BrowserRouter as Router , Redirect, Route , Switch } from 'react-router-dom'
 
 import Layout from "./components/common/Layout"
-import { AboutPage, FeaturesPage, HomePage } from "./components/Pages"
+import { Docs, FeaturesPage, HomePage } from "./components/Pages"
 
 
 const App = () => {
@@ -12,7 +12,7 @@ const App = () => {
 			<Switch>
 				<Redirect exact from="/" to='/home' />
 				<Route exact path="/home" component={HomePage} />
-				<Route exact path="/about" component={AboutPage} />
+				<Route exact path="/docs" component={Docs} />
 				<Route exact path="/features" component={FeaturesPage} />
 			</Switch>
 		</Layout>

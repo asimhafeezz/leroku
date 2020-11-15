@@ -61,7 +61,7 @@ const NavbarHeader = () => {
 					<UList>
 					<Item onClick={()=> push('/home')}>Home</Item>
 					<Item onClick={()=> push('/features')}>Features</Item>
-					<Item onClick={()=> push('/about')}>Docs</Item>
+					<Item onClick={()=> push('/docs')}>Docs</Item>
 					</UList>
 				</Nav>
 			</NavContainer>

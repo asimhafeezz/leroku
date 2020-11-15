@@ -3,7 +3,9 @@ const theme = {
 		text: '#333',
         blueBg: '#047aed',
         darkBlueBg: '#305880',
-		white: '#fff',
+        white: '#fff',
+        gray: '#f7f7f7',
+        success: '#1db643'
 	},
 	fonts: {
 		base: '"Lato" , sans-serif',
@@ -14,6 +16,11 @@ const theme = {
         md:'2rem',
         lg: '3rem',
         xl: '4rem'
+    },
+    mediaQueries:{
+        mobile: '500',
+        tablet: '768',
+        laptop: '1200'
     }
 }
 
