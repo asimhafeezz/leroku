@@ -33,8 +33,8 @@ const mixins = {
 	card: css`
 		background-color: ${colors.white};
 		border-radius: 10px;
-		box-shadow: 0 3px 30px rgba(0, 0, 0, 0.2);
-		padding: 20px;
+		box-shadow: 0 3px 15px rgba(0, 0, 0, 0.2);
+		padding: 25px;
 		margin: 10px;
 	`,
 	button: css`

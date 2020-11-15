@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 import { mixins, theme } from '../../../style'
 import Head from './Head'
+import MainFeatures from './MainFeatures'
 import SubHead from './SubHead'
 
 //theme
@@ -16,6 +17,7 @@ return(
     <Root>
         <Head />
         <SubHead />
+        <MainFeatures />
     </Root>
     )
 }
