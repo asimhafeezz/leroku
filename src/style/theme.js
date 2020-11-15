@@ -9,7 +9,8 @@ const theme = {
 		base: '"Lato" , sans-serif',
     },
     fontSizes:{
-        sm: '1rem',
+        xs: '1rem',
+        sm: '1.3rem',
         md:'2rem',
         lg: '3rem',
         xl: '4rem'

@@ -35,7 +35,6 @@ const NavContainer = styled.div`
 `
 
 const Logo = styled.h1`
-padding-left: 10px;
 	flex: 1;
 
 `

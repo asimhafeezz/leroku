@@ -1,16 +1,21 @@
 import styled from 'styled-components'
-import { mixins } from '../../../style'
+import { mixins, theme } from '../../../style'
+import Head from './Head'
+import SubHead from './SubHead'
+
+//theme
+const { colors } = theme
 
 //root
 const Root = styled.div`
-${mixins.flexCenter}
-height: 500px;
+
 `
 
 const FeaturesPage = () => {
 return(
     <Root>
-        <h1>Features Page</h1>
+        <Head />
+        <SubHead />
     </Root>
     )
 }
