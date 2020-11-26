@@ -31,14 +31,9 @@ const NavContainer = styled.div`
 	}
 `
 
-const LogoSection = styled.section`
+const Logo = styled.h1`
 	flex: 1;
-	height: 100px;
-`
-const Logo = styled.img`
-	width: 100px;
-	margin-top: 1.5rem;
-	margin-bottom: 0.3rem;
+	font-weight: 500;
 `
 
 const UList = styled.ul`
@@ -59,10 +54,7 @@ const NavbarHeader = () => {
 	return (
 		<Navbar>
 			<NavContainer>
-				<LogoSection>
-					<Logo src='/lerokuLogo.png' alt='lerokulogo' />
-				</LogoSection>
-
+				<Logo>Leroku.</Logo>
 				<Nav>
 					<UList>
 						<Item onClick={() => push('/home')}>Home</Item>
