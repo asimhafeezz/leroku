@@ -1,6 +1,6 @@
 # Leroku React App
 
-A template created with styled-components in react js. 
+A web UI built using styled-components in react js. 
 
 ## Available Scripts
 
