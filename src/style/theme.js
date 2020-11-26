@@ -1,8 +1,8 @@
 const theme = {
 	colors: {
 		text: '#333',
-        blueBg: '#047aed',
-        darkBlueBg: '#305880',
+        blueBg: '#6a46be',
+        darkBlueBg: '#655a83',
         white: '#fff',
         gray: '#f7f7f7',
         success: '#1db643'

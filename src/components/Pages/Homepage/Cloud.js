@@ -14,11 +14,10 @@ const Container = styled.div`
 	${mixins.container};
 	${mixins.grid};
 	grid-template-columns: 4fr 3fr;
-
     //mobile media query
 @media (max-width: 580px){
 		grid-template-columns: 1fr;
-        height: 500px;
+        height: auto;
 	}
 `
 const Texts = styled.div`

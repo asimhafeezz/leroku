@@ -41,6 +41,7 @@ const Logo = styled.h1`
 
 const UList = styled.ul`
 display: inline-block;
+height: 30px;
 //mobile media query
 @media (max-width: 768px){
 		height: 50px;

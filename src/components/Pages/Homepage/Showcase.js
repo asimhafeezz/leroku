@@ -113,7 +113,7 @@ const Showcase = () => {
 						<FormControl>
 							<input type='text' placeholder='Email' />
 						</FormControl>
-						<PrimaryButton>Send</PrimaryButton>
+						<PrimaryButton onClick={(e)=> e.preventDefault()}>Send</PrimaryButton>
 					</form>
 				</FormCard>
 			</Container>
